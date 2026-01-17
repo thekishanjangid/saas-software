@@ -13,11 +13,11 @@ export function Footer() {
           <div>
             <Link href="/" className="flex items-center gap-2 mb-4">
                <Image 
-                 src="/assets/logo.png" 
+                 src="/assets/mylogo_cropped_processed_by_imagy.png" 
                  alt="yoursoftcare logo" 
-                 width={180} 
-                 height={70} 
-                 className="w-auto h-42 object-contain"
+                 width={15000} 
+                 height={100} 
+                 className="w-auto h-20 object-contain"
                />
             </Link>
             <p className="text-slate-500 text-sm leading-relaxed mb-6">

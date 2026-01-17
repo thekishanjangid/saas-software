@@ -20,11 +20,11 @@ export function Navbar() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2" onClick={closeMobileMenu}>
           <Image 
-            src="/assets/yoursoftcare2.png" 
+            src="/assets/mylogo_cropped_processed_by_imagy.png" 
             alt="yoursoftcare logo" 
-            width={180} 
-            height={72} 
-            className="w-auto h-42 object-contain"
+            width={15000} 
+            height={100} 
+            className="w-auto h-23 mt- object-contain"
             priority
           />
         </Link>
