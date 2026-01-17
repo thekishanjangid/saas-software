@@ -40,10 +40,10 @@ export function Navbar() {
                         <div className="text-xs text-slate-500">Browse all software</div>
                     </div>
                  </Link>
-                 <Link href="/reviews" className="block px-2 py-1.5 text-sm text-slate-600 hover:text-blue-600 hover:bg-slate-50 rounded">Payroll Software</Link>
-                 <Link href="/reviews" className="block px-2 py-1.5 text-sm text-slate-600 hover:text-blue-600 hover:bg-slate-50 rounded">CRM Software</Link>
-                 <Link href="/reviews" className="block px-2 py-1.5 text-sm text-slate-600 hover:text-blue-600 hover:bg-slate-50 rounded">Project Management</Link>
-                 <Link href="/reviews" className="block px-2 py-1.5 text-sm text-slate-600 hover:text-blue-600 hover:bg-slate-50 rounded">Marketing Tools</Link>
+                 <Link href="/reviews/payroll" className="block px-2 py-1.5 text-sm text-slate-600 hover:text-blue-600 hover:bg-slate-50 rounded">Payroll Software</Link>
+                 <Link href="/reviews/crm" className="block px-2 py-1.5 text-sm text-slate-600 hover:text-blue-600 hover:bg-slate-50 rounded">CRM Software</Link>
+                 <Link href="/reviews/project-management" className="block px-2 py-1.5 text-sm text-slate-600 hover:text-blue-600 hover:bg-slate-50 rounded">Project Management</Link>
+                 <Link href="/reviews/marketing" className="block px-2 py-1.5 text-sm text-slate-600 hover:text-blue-600 hover:bg-slate-50 rounded">Marketing Tools</Link>
                </div>
             </div>
           </div>
@@ -119,6 +119,22 @@ export function Navbar() {
           <Link href="/contact" className="text-sm font-medium text-slate-600 hover:text-blue-600 transition-colors">
             Contact
           </Link>
+
+          {/* Affiliate Disclosure (Desktop) */}
+          <div className="group relative">
+             <button className="text-sm font-medium text-slate-500 hover:text-slate-900 transition-colors py-2 flex items-center gap-1 cursor-help">
+               Affiliate Disclosure
+             </button>
+             <div className="absolute top-full right-0 w-64 bg-slate-900 text-white text-xs p-3 rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all transform translate-y-2 group-hover:translate-y-0 duration-200 z-50">
+               <p className="mb-2 leading-relaxed">We may earn a commission from affiliate links at no extra cost to you.</p>
+               <Link href="/affiliate-disclosure" className="underline hover:text-blue-300">Read Policy</Link>
+             </div>
+          </div>
+
+          {/* Explore CTA */}
+          <Link href="/explore" className="bg-blue-600 text-white px-5 py-2.5 rounded-full text-sm font-bold hover:bg-blue-700 transition-all shadow hover:shadow-lg hover:-translate-y-0.5 ml-2">
+            Explore SaaS
+          </Link>
         </div>
 
         {/* Mobile Menu Button */}
@@ -136,6 +152,12 @@ export function Navbar() {
         mobileMenuOpen ? "translate-x-0" : "translate-x-full"
       )}>
          <div className="container mx-auto px-4 py-8 flex flex-col gap-8">
+
+            <div className="pb-4 border-b border-slate-100">
+               <Link href="/explore" onClick={closeMobileMenu} className="w-full block text-center bg-blue-600 text-white px-5 py-3 rounded-xl text-lg font-bold shadow-md hover:bg-blue-700 transition-colors">
+                  Explore SaaS
+               </Link>
+            </div>
             
             {/* Mobile Reviews section */}
             <div className="space-y-4">
@@ -144,10 +166,10 @@ export function Navbar() {
                </h3>
                <div className="grid grid-cols-1 gap-2 pl-4 border-l-2 border-slate-100">
                   <Link href="/reviews" onClick={closeMobileMenu} className="text-slate-600 font-medium py-2">All Reviews</Link>
-                  <Link href="/reviews" onClick={closeMobileMenu} className="text-slate-500 py-1">Payroll Software</Link>
-                  <Link href="/reviews" onClick={closeMobileMenu} className="text-slate-500 py-1">CRM Software</Link>
-                  <Link href="/reviews" onClick={closeMobileMenu} className="text-slate-500 py-1">Project Management</Link>
-                  <Link href="/reviews" onClick={closeMobileMenu} className="text-slate-500 py-1">Marketing Tools</Link>
+                  <Link href="/reviews/payroll" onClick={closeMobileMenu} className="text-slate-500 py-1">Payroll Software</Link>
+                  <Link href="/reviews/crm" onClick={closeMobileMenu} className="text-slate-500 py-1">CRM Software</Link>
+                  <Link href="/reviews/project-management" onClick={closeMobileMenu} className="text-slate-500 py-1">Project Management</Link>
+                  <Link href="/reviews/marketing" onClick={closeMobileMenu} className="text-slate-500 py-1">Marketing Tools</Link>
                </div>
             </div>
 
@@ -182,7 +204,8 @@ export function Navbar() {
                <div className="grid grid-cols-1 gap-2 pl-4 border-l-2 border-slate-100">
                   <Link href="/about" onClick={closeMobileMenu} className="text-slate-600 font-medium py-2">About Us</Link>
                   <Link href="/about" onClick={closeMobileMenu} className="text-slate-500 py-1">How We Review</Link>
-                  <Link href="/affiliate-disclosure" onClick={closeMobileMenu} className="text-slate-500 py-1">Editorial Policy</Link>
+                  <Link href="/about" onClick={closeMobileMenu} className="text-slate-500 py-1">How We Review</Link>
+                  <Link href="/affiliate-disclosure" onClick={closeMobileMenu} className="text-slate-500 py-1">Affiliate Disclosure</Link>
                   <Link href="/contact" onClick={closeMobileMenu} className="text-slate-600 font-medium py-2 flex items-center gap-2">
                      <Mail className="w-4 h-4" /> Contact
                   </Link>
