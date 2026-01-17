@@ -3,7 +3,7 @@ import { reviews } from '@/data/reviews';
 import { Star, ArrowRight, Users } from 'lucide-react';
 
 export const metadata = {
-  title: 'Best CRM Software Reviews | SaaSReviewPro',
+  title: 'Best CRM Software Reviews | yoursoftcare',
   description: 'In-depth reviews of top CRM tools including HubSpot, Salesforce, and more.',
 };
 

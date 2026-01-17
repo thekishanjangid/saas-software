@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { ShieldCheck, Scale, DollarSign } from 'lucide-react';
 
 export const metadata = {
-  title: 'Editorial Policy | SaaSReviewPro',
+  title: 'Editorial Policy | yoursoftcare',
   description: 'Our commitment to unbiased, independent, and transparent software reviews.',
 };
 
@@ -14,7 +14,7 @@ export default function EditorialPolicyPage() {
         
         <div className="bg-white p-8 md:p-12 rounded-2xl shadow-sm border border-slate-200 prose prose-slate max-w-none">
           <p className="lead text-lg text-slate-600 mb-8">
-            At SaaSReviewPro, our mission is to help you find the best software for your business. We believe that trust is our most valuable asset. This policy outlines our standards for independence, accuracy, and transparency.
+            At yoursoftcare, our mission is to help you find the best software for your business. We believe that trust is our most valuable asset. This policy outlines our standards for independence, accuracy, and transparency.
           </p>
 
           <div className="grid md:grid-cols-3 gap-8 my-10 not-prose">

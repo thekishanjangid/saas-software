@@ -1,7 +1,7 @@
 import { Microscope, CheckCircle, XCircle } from 'lucide-react';
 
 export const metadata = {
-  title: 'How We Review Software | SaaSReviewPro',
+  title: 'How We Review Software | yoursoftcare',
   description: 'Our rigorous testing methodology for SaaS tools.',
 };
 

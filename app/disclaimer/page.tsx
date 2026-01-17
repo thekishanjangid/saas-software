@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'Disclaimer | SaaSReviewPro',
+  title: 'Disclaimer | yoursoftcare',
   description: 'Legal disclaimer and accuracy statement.',
 };
 
@@ -13,7 +13,7 @@ export default function DisclaimerPage() {
           
           <h3>General Information Only</h3>
           <p>
-            The information provided by SaaSReviewPro ("we," "us," or "our") on this website is for general informational purposes only. All information on the Site is provided in good faith, however, we make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability, or completeness of any information on the Site.
+            The information provided by yoursoftcare ("we," "us," or "our") on this website is for general informational purposes only. All information on the Site is provided in good faith, however, we make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability, or completeness of any information on the Site.
           </p>
 
           <h3>No Professional Advice</h3>

@@ -3,7 +3,7 @@ import { reviews } from '@/data/reviews';
 import { Star, ExternalLink, ArrowRight, BookOpen } from 'lucide-react';
 
 export const metadata = {
-  title: 'All Software Reviews | SaaSReviewPro',
+  title: 'All Software Reviews | yoursoftcare',
   description: 'In-depth reviews of the best SaaS tools for your business.',
 };
 

@@ -5,7 +5,7 @@ export default function AboutPage() {
     <div className="bg-white">
       <div className="bg-slate-50 py-16 border-b border-slate-200">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl font-bold text-slate-900 mb-4">About SaaSReviewPro</h1>
+          <h1 className="text-4xl font-bold text-slate-900 mb-4">About yoursoftcare</h1>
           <p className="text-xl text-slate-600 max-w-2xl mx-auto">
             We are dedicated to helping businesses find the perfect software solutions through unbiased testing and in-depth reviews.
           </p>

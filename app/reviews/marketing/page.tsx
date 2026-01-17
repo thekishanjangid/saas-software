@@ -3,7 +3,7 @@ import { reviews } from '@/data/reviews';
 import { Star, ArrowRight, Megaphone } from 'lucide-react';
 
 export const metadata = {
-  title: 'Best Marketing Software Reviews | SaaSReviewPro',
+  title: 'Best Marketing Software Reviews | yoursoftcare',
   description: 'In-depth reviews of top marketing tools for email, automation, and analytics.',
 };
 

@@ -5,7 +5,7 @@ export default function AffiliateDisclosurePage() {
       <div className="prose prose-slate max-w-none bg-yellow-50 p-8 rounded-xl border border-yellow-200">
         <p className="font-bold text-lg">Transparency is important to us.</p>
         <p>
-          SaaSReviewPro is a participant in various affiliate programs designed to provide a means for sites to earn advertising fees by advertising and linking to software vendors.
+          yoursoftcare is a participant in various affiliate programs designed to provide a means for sites to earn advertising fees by advertising and linking to software vendors.
         </p>
         <p>
           When you click on links to various merchants on this site and make a purchase, this can result in this site earning a commission. Affiliate programs and affiliations include, but are not limited to, the Impact Network, PartnerStack, and others.

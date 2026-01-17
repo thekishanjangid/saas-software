@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -11,8 +12,13 @@ export function Footer() {
           {/* Brand Column */}
           <div>
             <Link href="/" className="flex items-center gap-2 mb-4">
-               <div className="w-6 h-6 bg-blue-600 rounded-md flex items-center justify-center text-white font-bold text-xs">S</div>
-               <span className="font-bold text-lg text-slate-900">SaaSReviewPro</span>
+               <Image 
+                 src="/assets/logo.png" 
+                 alt="yoursoftcare logo" 
+                 width={180} 
+                 height={70} 
+                 className="w-auto h-42 object-contain"
+               />
             </Link>
             <p className="text-slate-500 text-sm leading-relaxed mb-6">
               Helping businesses find the best software tools. Unbiased reviews, in-depth comparisons, and expert verdicts for B2B SaaS.
@@ -64,7 +70,7 @@ export function Footer() {
         </div>
         
         <div className="border-t border-slate-200 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-slate-400">
-          <p>&copy; {currentYear} SaaSReviewPro. All rights reserved.</p>
+          <p>&copy; {currentYear} yoursoftcare. All rights reserved.</p>
           <div className="flex gap-4">
              <span>Made with ❤️ for SaaS Founders</span>
           </div>

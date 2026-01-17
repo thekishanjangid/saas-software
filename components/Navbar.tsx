@@ -3,7 +3,9 @@
 import Link from 'next/link';
 import { useState } from 'react';
 import { ChevronDown, Menu, X, Rocket, BarChart2, BookOpen, Info, Mail } from 'lucide-react';
+
 import { clsx } from 'clsx';
+import Image from 'next/image';
 
 export function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -15,9 +17,16 @@ export function Navbar() {
     <nav className="sticky top-0 z-50 w-full bg-white/80 backdrop-blur-md border-b border-slate-200">
       <div className="container mx-auto px-4 md:px-6 h-16 flex items-center justify-between">
         {/* Logo */}
+        {/* Logo */}
         <Link href="/" className="flex items-center gap-2" onClick={closeMobileMenu}>
-          <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center text-white font-bold">S</div>
-          <span className="font-bold text-xl text-slate-900 tracking-tight">SaaSReviewPro</span>
+          <Image 
+            src="/assets/yoursoftcare2.png" 
+            alt="yoursoftcare logo" 
+            width={180} 
+            height={72} 
+            className="w-auto h-42 object-contain"
+            priority
+          />
         </Link>
 
         {/* Desktop Menu */}

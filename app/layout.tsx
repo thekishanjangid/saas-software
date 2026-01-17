@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "SaaS Software Comparisons",
+  title: "yoursoftcare | SaaS Software Comparisons",
   description: "Find the best software tools for your business with our in-depth comparisons.",
 };
 

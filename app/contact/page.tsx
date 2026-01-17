@@ -2,8 +2,8 @@ import { Mail, MessageSquare, ShieldCheck, Zap } from 'lucide-react';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Contact Us | SaaSReviewPro',
-  description: 'Get in touch with the SaaSReviewPro team for feedback, suggestions, or partnership inquiries.',
+  title: 'Contact Us | yoursoftcare',
+  description: 'Get in touch with the yoursoftcare team for feedback, suggestions, or partnership inquiries.',
 };
 
 export default function ContactPage() {
@@ -14,7 +14,7 @@ export default function ContactPage() {
         {/* Page Header */}
         <div className="text-center mb-16 max-w-2xl mx-auto">
           <h1 className="text-4xl md:text-5xl font-extrabold text-slate-900 mb-6 tracking-tight">
-            Contact the <span className="text-blue-600">SaaSReviewPro</span> Team
+            Contact the <span className="text-blue-600">yoursoftcare</span> Team
           </h1>
           <p className="text-xl text-slate-600 leading-relaxed">
              Have a question, suggestion, or partnership inquiry? We’d love to hear from you.
@@ -66,8 +66,8 @@ export default function ContactPage() {
                 <div className="relative z-10">
                    <h3 className="text-xl font-bold mb-2">Direct Email</h3>
                    <p className="text-blue-100 mb-6">Prefer email? No problem.</p>
-                   <a href="mailto:hello@saasreviewpro.com" className="inline-flex items-center gap-2 bg-white text-blue-600 font-bold px-6 py-3 rounded-lg hover:bg-blue-50 transition-colors">
-                      <Mail className="w-4 h-4" /> hello@saasreviewpro.com
+                   <a href="mailto:hello@yoursoftcare.com" className="inline-flex items-center gap-2 bg-white text-blue-600 font-bold px-6 py-3 rounded-lg hover:bg-blue-50 transition-colors">
+                      <Mail className="w-4 h-4" /> hello@yoursoftcare.com
                    </a>
                    <p className="mt-6 text-xs text-blue-200 opacity-80">
                       We typically respond within 24–48 hours.

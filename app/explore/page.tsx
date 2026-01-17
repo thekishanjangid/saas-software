@@ -3,7 +3,7 @@ import { reviews } from '@/data/reviews';
 import { Star, ExternalLink, ArrowRight, ShieldCheck } from 'lucide-react';
 
 export const metadata = {
-  title: 'Explore SaaS & Software Tools | SaaSReviewPro',
+  title: 'Explore SaaS & Software Tools | yoursoftcare',
   description: 'Curated software tools we’ve tested and reviewed.',
 };
 
